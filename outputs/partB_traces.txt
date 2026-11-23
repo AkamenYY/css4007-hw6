@@ -1,0 +1,366 @@
+# FrozenLake traces (render_mode='ansi')
+The lowercase letter is where the agent is. The word in brackets is the last action.
+
+## not slippery / random: hole (batch 11, episode seed 11000, 10 steps)
+actions: up, up, up, down, down, up, down, left, up, right
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Up)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Up)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Up)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+FHFH
+fFFH
+HFFG
+  (Up)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+FHFH
+fFFH
+HFFG
+  (Left)
+SFFF
+FHFH
+fFFH
+HFFG
+  (Up)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Right)
+SFFF
+FhFH
+FFFH
+HFFG
+
+## not slippery / random: goal (batch 11, episode seed 11009, 22 steps)
+actions: up, right, left, right, right, up, left, left, left, down, down, left, right, right, up, down, up, down, up, down, down, right
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Up)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Right)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Left)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Right)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Right)
+SFfF
+FHFH
+FFFH
+HFFG
+...
+  (Down)
+SFFF
+FHFH
+FFfH
+HFFG
+  (Up)
+SFFF
+FHfH
+FFFH
+HFFG
+  (Down)
+SFFF
+FHFH
+FFfH
+HFFG
+  (Down)
+SFFF
+FHFH
+FFFH
+HFfG
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFg
+
+## not slippery / fixed: goal (batch 11, episode seed 11000, 6 steps)
+actions: down, down, right, down, right, right
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+FHFH
+fFFH
+HFFG
+  (Right)
+SFFF
+FHFH
+FfFH
+HFFG
+  (Down)
+SFFF
+FHFH
+FFFH
+HfFG
+  (Right)
+SFFF
+FHFH
+FFFH
+HFfG
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFg
+
+## not slippery / fixed: no failure happened in any of the 150 episodes
+
+## slippery / random: hole (batch 11, episode seed 11000, 5 steps)
+actions: up, up, up, down, down
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Up)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Up)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Up)
+SFfF
+FHFH
+FFFH
+HFFG
+  (Down)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+FhFH
+FFFH
+HFFG
+
+## slippery / random: goal (batch 22, episode seed 22034, 13 steps)
+actions: down, down, right, down, up, left, right, down, down, left, up, right, down
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Right)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Up)
+SFfF
+FHFH
+FFFH
+HFFG
+...
+  (Down)
+SFFF
+FHFH
+FFFH
+HfFG
+  (Left)
+SFFF
+FHFH
+FfFH
+HFFG
+  (Up)
+SFFF
+FHFH
+FFfH
+HFFG
+  (Right)
+SFFF
+FHFH
+FFFH
+HFfG
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFg
+
+## slippery / fixed: hole (batch 11, episode seed 11000, 8 steps)
+actions: down, left, left, left, left, down, down, down
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Left)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Left)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Left)
+SfFF
+FHFH
+FFFH
+HFFG
+  (Left)
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+FhFH
+FFFH
+HFFG
+
+## slippery / fixed: goal (batch 11, episode seed 11020, 14 steps)
+actions: down, down, down, right, down, right, right, down, down, down, down, right, down, right
+
+
+sFFF
+FHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+fHFH
+FFFH
+HFFG
+  (Down)
+SFFF
+FHFH
+fFFH
+HFFG
+  (Right)
+SFFF
+FHFH
+FfFH
+HFFG
+  (Down)
+SFFF
+FHFH
+FFFH
+HfFG
+...
+  (Down)
+SFFF
+FHFH
+FFfH
+HFFG
+  (Down)
+SFFF
+FHFH
+FFFH
+HFfG
+  (Right)
+SFFF
+FHFH
+FFfH
+HFFG
+  (Down)
+SFFF
+FHFH
+FFFH
+HFfG
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFg
+
